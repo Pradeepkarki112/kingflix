@@ -1,38 +1,76 @@
-# MoonFlix
+# 🎬 KingFlix
 
-    Fullstack Responsive Movie Website 2022
+**Fullstack Responsive Movie Website** – 2022 Edition  
 
-# Video tutorial
+KingFlix is a **modern movie web app** built with React, Node.js, Express, and MongoDB. It fetches data from **TMDB API** and provides a seamless responsive experience for browsing movies.  
 
-[Part 1](https://youtu.be/j-Sn1b4OlLA)<br>
+---
 
-[Part 2](https://youtu.be/Q_uLi4f27Lc)<br>
+## 🛠 Technologies & Resources
 
-# Resource
+- **Frontend:** React, Material UI, React Router, Formik, Yup, Axios, Swiper  
+- **Backend:** Node.js, ExpressJS, Mongoose, JWT, Express Validator  
+- **API:** [The Movie Database (TMDB)](https://www.themoviedb.org/)  
 
-[Create React App](https://create-react-app.dev/)<br>
-[Material UI](https://create-react-app.dev/)<br>
-[Mongoose](https://mongoosejs.com/)<br>
-[ExpressJS](https://expressjs.com/)<br>
-[Express Validator](https://express-validator.github.io/docs/)<br>
-[React Router](https://reactrouter.com/)<br>
-[Formik](https://formik.org/)<br>
-[Yup](https://github.com/jquense/yup/)<br>
-[Axios](https://axios-http.com/)<br>
-[ThemovieDB](https://www.themoviedb.org/)<br>
-[Swiper](https://swiperjs.com/)<br>
-[JWT](https://github.com/auth0/node-jsonwebtoken)<br>
+---
 
-# Preview
+## 🌐 Live Preview
 
-!["Fullstack Responsive Movie Website 2022"](https://user-images.githubusercontent.com/67447840/207322539-8fcd83e1-8424-4922-980c-91d20cdf761c.png "Fullstack Responsive Movie Website 2022")
+![KingFlix Homepage](https://user-images.githubusercontent.com/67447840/207322539-8fcd83e1-8424-4922-980c-91d20cdf761c.png)  
+*Homepage - Browse latest movies*
 
-!["Fullstack Responsive Movie Website 2022"](https://user-images.githubusercontent.com/67447840/207322676-cbf56b14-8e23-4622-bbd9-76e6cbe619a8.png "Fullstack Responsive Movie Website 2022")
+![KingFlix Movie Details](https://user-images.githubusercontent.com/67447840/207322676-cbf56b14-8e23-4622-bbd9-76e6cbe619a8.png)  
+*Movie Details Page*
 
-!["Fullstack Responsive Movie Website 2022"](https://user-images.githubusercontent.com/67447840/207322838-09e075c4-7f47-4252-83e8-afdd633e1968.png "Fullstack Responsive Movie Website 2022")
+![KingFlix Login/Register](https://user-images.githubusercontent.com/67447840/207322838-09e075c4-7f47-4252-83e8-afdd633e1968.png)  
+*User Authentication (Login / Register)*
 
-!["Fullstack Responsive Movie Website 2022"](https://user-images.githubusercontent.com/67447840/207322933-1b5cf238-0ec7-4adf-89eb-6b4fb3dcb996.png "Fullstack Responsive Movie Website 2022")
+---
 
-!["Fullstack Responsive Movie Website 2022"](https://user-images.githubusercontent.com/67447840/207323098-dfa74553-78a8-4809-a7a7-cd569c3b3f6c.png "Fullstack Responsive Movie Website 2022")
+## 🔑 Environment Variables
 
-!["Fullstack Responsive Movie Website 2022"](https://user-images.githubusercontent.com/67447840/207323021-0b5657d2-8913-4b81-8c1b-d4ceef065ee6.png "Fullstack Responsive Movie Website 2022")
+This project requires a **TMDB API key**:
+
+1. Sign up at [TMDB Signup](https://www.themoviedb.org/signup) and verify your email  
+2. Log in at [TMDB Login](https://www.themoviedb.org/login)  
+3. Create an API key for personal use: [Getting Started](https://developer.themoviedb.org/docs/getting-started)  
+4. Copy your API key and create a `.env` file in the project root:
+
+```
+VITE_TMDB_API_KEY=your_actual_tmdb_api_key
+```
+
+---
+
+## ⚡ Installation & Development
+
+```bash
+# Clone the repo
+git clone https://github.com/your-username/kingflix.git
+cd kingflix
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+Visit `http://localhost:5173` to view the app.  
+
+---
+
+## 💡 Features
+
+- Responsive UI for desktop & mobile  
+- Browse trending and top-rated movies  
+- Detailed movie pages with trailers  
+- User login and registration with JWT  
+- Form validation with Formik + Yup  
+- Smooth sliders with Swiper  
+
+---
+
+## 📄 License
+
+MIT License © 2026
